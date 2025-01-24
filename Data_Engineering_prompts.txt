@@ -1,0 +1,32 @@
+EN ESPANOL
+==========
+
+"Quiero construir un pipeline de datos utilizando Python y Apache Airflow. Necesito que me ayudes paso a paso con:
+
+Fundamentos iniciales: Explícame brevemente los conceptos clave de Apache Airflow (qué es, cómo funciona un DAG, tareas, operadores, y cómo se ejecuta el scheduler) y cómo se conecta con Python.
+Diseño del pipeline: Indícame qué etapas o tareas incluir en el pipeline, en qué orden y por qué.
+Implementación del DAG: Proporcióname el código estructurado para implementar el DAG, detallando cada tarea con ejemplos en Python.
+Transformaciones de datos: Dame ejemplos prácticos de cómo realizar operaciones comunes, como limpieza, validación y enriquecimiento de datos, dentro del pipeline.
+Configuración de conexiones y operadores: Explícame cómo configurar conexiones para bases de datos, APIs, almacenamiento en la nube (por ejemplo, S3, GCS) y qué operadores debo usar.
+Pruebas y despliegue: Guíame para realizar pruebas locales del pipeline y para desplegarlo en un entorno de producción, incluyendo consejos sobre configuración del entorno.
+Mejores prácticas y escalabilidad: Dame recomendaciones sobre cómo diseñar un pipeline escalable, manejar dependencias, y evitar errores comunes al trabajar con Apache Airflow.
+El objetivo del pipeline es [describe tu objetivo específico aquí, como 'extraer datos de una API REST, almacenarlos en un data warehouse y realizar análisis básicos', 'automatizar la limpieza de logs y subirlos a S3', etc.].
+
+Proporciona ejemplos prácticos y consejos adicionales para sacar el máximo provecho de Airflow y Python en este contexto."
+
+
+ENGLISH
+=======
+
+"I want to build a data pipeline using Python and Apache Airflow. I need you to help me step by step with:
+
+Getting started: Briefly explain the key concepts of Apache Airflow (what it is, how a DAG works, tasks, operators, and how the scheduler runs) and how it connects to Python.
+Pipeline design: Tell me which stages or tasks to include in the pipeline, in which order, and why.
+DAG implementation: Provide me with the structured code to implement the DAG, detailing each task with examples in Python.
+Data transformations: Give me practical examples of how to perform common operations, such as data cleansing, validation, and enrichment, within the pipeline.
+Connection and operator setup: Explain to me how to set up connections for databases, APIs, cloud storage (e.g. S3, GCS), and which operators I should use.
+Testing and deployment: Guide me through local testing of the pipeline and through deploying it to a production environment, including tips on environment setup.
+Best Practices and Scalability: Give me recommendations on how to design a scalable pipeline, manage dependencies, and avoid common pitfalls when working with Apache Airflow.
+The goal of the pipeline is to [describe your specific goal here, such as 'pull data from a REST API, store it in a data warehouse, and perform basic analysis', 'automate log cleanup and upload to S3', etc.].
+
+Provide practical examples and additional tips to get the most out of Airflow and Python in this context."
