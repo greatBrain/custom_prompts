@@ -1,37 +1,54 @@
-Contexto: Un sitema web LLM para la validación de documentos legales y contables usando IA/LLMs que detecte errores ortograficos, de redaccion, errores o fallas legales, clausulas abusivas, cosasa importantes faltantes, etc. Todo en el contexto de las leyes de Republica Dominicana. Puedes echarle un ojo a lo ya existente y hacer que el nuestro se diferencie.
-Publico objetivo:Contadores independientes, pequenas firmas legales/contables, abogados, poblacion general.
-Tecnologias frontend: HTML5, Vue3, Tailwind CSS 4 (o una version lo bastante actualizada que funcione).
-Tecnologias backend: FastAPI, LLM, LangChain, Postgress. 
-Tu trabajo: genera el código completo SI Y SOLO SI SOLO para el frontend utilizando para un MVP funcional de este sistema.
-Objetivo: validar el producto, su aceptacion y su usabilidad. Debe ser usable, moderno, profesional, limpio e intuitivo, de diseño moderno y una paleta de colores suaves y agradables.
-Debe reflejar confiabilidad y simplicidad.
-Debes seguir el siguiente flujo logico para generar este proyecto:
-1-Dame la instruccion o comandos, de manera secuencial y logica para crear el proyecto con npm y vue.
-2-Define las dependencias a instalar.
-3-Recomiendame en que archivo debo asignar cada pieza de codigo, cada modulo, donde va cada cosa.  
-Debes entregar: 
-1.Vista login/Registro minimalistas
-2.Vista Principal (Dashboard): Mostrar un historial de análisis recientes con cards que representen cada documento analizado.
-3.Vista Carga de Documentos:** Opción clara y prominente para subir documentos.
-4.Vista Previa del Documento Cargado: Una vez subido, permitir una previsualización simple del documento.
-5.Vista panel de Resultados del Análisis IA, una sección que muestre:
-    * Observaciones y sugerencias (simuladas para el MVP).
-    * Posibles errores detectados (simulados).
-    * Riesgos contractuales o legales (simulados).
-6.Botón para Descargar Informe PDF:Un botón para simular la descarga de un informe (no es necesario generar el PDF real en el frontend para el MVP, solo el botón).
-7.Navegación Sencilla:Un sidebar fijo para la navegación principal.
-Diseño y Optimización:
-Web:
-    * Estilo profesional moderno, minimalista, intuitivo y fluido.
-    * Sidebar fijo, cards para documentos, botones claros.
-    * Paleta de colores moderna y armoniosa y algo llamativa.
-Móvil:
-    *Optimizado para uso desde celular y tablets, vista tipo app en celulares.
-    *Navegación inferior si aplica, con aniaciones sutiles.
-    *Interacciones rápidas: subir, ver resumen, descargar.
-    *Notificaciones básicas (simuladas): "Tu documento fue procesado", etc.
-Flujo del sistema:Login/registro -> Subir documento -> Procesar (simulado) -> Ver resultados de los analisis -> Descargar informe (simulado).
-4.Documentación en un archivo aparte.
-Consideraciones Adicionales:
-* Mantén el principio KISS.Esto es un MVP para validar, no un producto terminado.
-* Prioriza la usabilidad y la claridad del diseño. Sin dejar de ser elegante, y diferenciador del resto.
+Contexto General
+
+Desarrollo un sistema web basado en IA/LLMs para la validación de documentos legales y contables dentro del marco jurídico de la República Dominicana. Este sistema detectará: Errores ortográficos y de redacción. Errores o fallas legales y cláusulas abusivas. Elementos importantes faltantes según la normativa local. Queremos diferenciarnos de otras plataformas similares: puedes revisar lo que ya existe en el mercado y procurar un diseño y flujo claramente distintivos.
+
+Público objetivo
+
+Contadores independientes. Pequeñas firmas legales o contables. Abogados en ejercicio. Población general (no técnica).
+
+Stack tecnológico
+
+Frontend: HTML5, Vue 3, Tailwind CSS v4 (o la versión más reciente y estable que funcione bien con Vue 3). Backend (ya definido, pero no generar código aquí): FastAPI, LangChain, LLM, PostgreSQL.
+
+Objetivo del entregable
+
+Generar únicamente el código completo del frontend de un MVP funcional, siguiendo un diseño profesional, limpio, confiable, moderno y accesible. Este MVP servirá para validar: La aceptación del producto. Su usabilidad. La efectividad del flujo de uso.
+
+Flujo de desarrollo solicitado (frontend)
+
+Inicialización del proyecto. Entrega los comandos paso a paso para iniciar un proyecto con Vue 3 y Tailwind CSS usando npm.
+Instalación de dependencias. Lista completa de dependencias necesarias para un frontend funcional, moderno y modular.
+Estructura del proyecto. Indica en qué archivo o directorio se debe ubicar cada componente, vista, módulo o asset. El objetivo es mantener una estructura limpia y escalable, apta para continuar el desarrollo tras validar el MVP.
+Vistas y componentes que debes entregar
+
+Login / Registro: Minimalista y profesional. Entrada clara para el sistema.
+Dashboard principal: Muestra un historial de documentos procesados en formato de cards. Cada card representa un análisis.
+Vista de carga de documentos: Opción clara y prominente para subir documentos (PDF, Word, etc.).
+Vista previa del documento cargado: Una previsualización sencilla y legible del contenido subido.
+Panel de resultados del análisis IA: Sección que simula mostrar: Observaciones y sugerencias. Posibles errores detectados. Riesgos contractuales o legales. Todo esto de forma simulada, para efectos del MVP.
+Botón de descarga de informe PDF: No debe generar un archivo real, solo simular la funcionalidad con un botón visible.
+Navegación sencilla: Un sidebar fijo que permita navegar entre vistas de forma fluida y clara.
+
+Diseño y experiencia de usuario (UX/UI)
+
+Diseño Web: Estilo profesional, moderno, minimalista, intuitivo y rápido. Sidebar fijo, cards limpias, botones visualmente claros y jerarquizados. Paleta de colores suaves, armoniosa y ligeramente llamativa. Fuente legible, con jerarquías tipográficas bien marcadas.
+Diseño Móvil: Totalmente responsive, adaptado a celulares y tablets. Vista tipo app en móviles. Navegación inferior si aplica. Animaciones suaves y sutiles. Interacciones rápidas: subir, ver resumen, descargar. Simulación de notificaciones básicas, como “Tu documento fue procesado correctamente”.
+
+Flujo lógico de uso (UX):
+
+Login / Registro
+Subir documento
+Procesamiento simulado (carga)
+Visualización de resultados IA
+Botón para descargar el informe
+
+Entregables esperados
+
+Todo el código frontend necesario para un MVP funcional.
+Instrucciones claras y secuenciales de instalación.
+Recomendaciones sobre la arquitectura de carpetas y archivos.
+Un archivo aparte con documentación básica del proyecto, explicando: Estructura del código. Cómo ejecutar el frontend localmente. Cómo se integraría con el backend (a alto nivel, sin código).
+
+Consideraciones clave
+
+Aplica el principio KISS (“Keep It Simple, Stupid”) en el diseño y el código. Prioriza usabilidad, claridad visual y fluidez de navegación. No intentes hacer un producto terminado; recuerda que es un MVP para validación temprana. Aun siendo simple, el sistema debe diferenciarse estéticamente y funcionalmente de cualquier app web genérica.
