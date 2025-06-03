@@ -1,26 +1,23 @@
-Contexto General
+Contexto General:
+Sistema web basado en IA/LLMs para la validación de documentos legales y contables dentro del marco jurídico de la República Dominicana. Este sistema detectará: Errores ortográficos y de redacción. Errores o fallas legales y cláusulas abusivas. Elementos importantes faltantes según la normativa local. Queremos diferenciarnos de otras plataformas similares: puedes revisar lo que ya existe en el mercado y procurar un diseño, enfoque y flujo claramente distintivos.
 
-Desarrollo un sistema web basado en IA/LLMs para la validación de documentos legales y contables dentro del marco jurídico de la República Dominicana. Este sistema detectará: Errores ortográficos y de redacción. Errores o fallas legales y cláusulas abusivas. Elementos importantes faltantes según la normativa local. Queremos diferenciarnos de otras plataformas similares: puedes revisar lo que ya existe en el mercado y procurar un diseño y flujo claramente distintivos.
+Público objetivo:
+Contadores independientes,pequeñas firmas legales o contables,abogados en ejercicio,población general (no técnica).
 
-Público objetivo
+Stack tecnológico:
+Frontend Vue3+Vite: HTML5,Vue3,vue-router,TailwindCSSv3.4.1,axios. 
+Backend:fastapi, algun modelo LLM,PostgreSQL, huggingface.. Obvia el backend por el momento.
 
-Contadores independientes. Pequeñas firmas legales o contables. Abogados en ejercicio. Población general (no técnica).
-
-Stack tecnológico
-
-Frontend: HTML5, Vue 3, Tailwind CSS v4 (o la versión más reciente y estable que funcione bien con Vue 3). Backend (ya definido, pero no generar código aquí): FastAPI, LangChain, LLM, PostgreSQL.
-
-Objetivo del entregable
-
+Objetivo del entregable:
 Generar únicamente el código completo del frontend de un MVP funcional, siguiendo un diseño profesional, limpio, confiable, moderno y accesible. Este MVP servirá para validar: La aceptación del producto. Su usabilidad. La efectividad del flujo de uso.
 
 Flujo de desarrollo solicitado (frontend)
 
-Inicialización del proyecto. Entrega los comandos paso a paso para iniciar un proyecto con Vue 3 y Tailwind CSS usando npm.
-Instalación de dependencias. Lista completa de dependencias necesarias para un frontend funcional, moderno y modular.
 Estructura del proyecto. Indica en qué archivo o directorio se debe ubicar cada componente, vista, módulo o asset. El objetivo es mantener una estructura limpia y escalable, apta para continuar el desarrollo tras validar el MVP.
-Vistas y componentes que debes entregar
+Inicialización del proyecto. Entrega los comandos paso a paso para iniciar el proyecto MVP.
+Instalación de dependencias. Lista completa de dependencias necesarias para un frontend minimamente funcional, moderno y modular.
 
+Vistas y componentes que debes entregar:
 Login / Registro: Minimalista y profesional. Entrada clara para el sistema.
 Dashboard principal: Muestra un historial de documentos procesados en formato de cards. Cada card representa un análisis.
 Vista de carga de documentos: Opción clara y prominente para subir documentos (PDF, Word, etc.).
@@ -29,26 +26,25 @@ Panel de resultados del análisis IA: Sección que simula mostrar: Observaciones
 Botón de descarga de informe PDF: No debe generar un archivo real, solo simular la funcionalidad con un botón visible.
 Navegación sencilla: Un sidebar fijo que permita navegar entre vistas de forma fluida y clara.
 
-Diseño y experiencia de usuario (UX/UI)
+Diseño y experiencia de usuario (UX/UI):
 
-Diseño Web: Estilo profesional, moderno, minimalista, intuitivo y rápido. Sidebar fijo, cards limpias, botones visualmente claros y jerarquizados. Paleta de colores suaves, armoniosa y ligeramente llamativa. Fuente legible, con jerarquías tipográficas bien marcadas.
-Diseño Móvil: Totalmente responsive, adaptado a celulares y tablets. Vista tipo app en móviles. Navegación inferior si aplica. Animaciones suaves y sutiles. Interacciones rápidas: subir, ver resumen, descargar. Simulación de notificaciones básicas, como “Tu documento fue procesado correctamente”.
+Web: Profesional,moderno,minimalista,intuitivo. Sidebar fijo,cards limpias,botones visualmente claros y jerarquizados. Paleta de colores suaves, armoniosa y ligeramente llamativa. Fuente legible, con jerarquías tipográficas bien marcadas.
+Móvil: Responsive, adaptado a celulares y tablets. Vista tipo app. Navegación inferior si aplica. Animaciones y transiciones suaves. Interacciones rápidas: subir, ver resumen, descargar. Simulación de notificaciones básicas, como “Tu documento fue procesado correctamente”.
 
 Flujo lógico de uso (UX):
 
 Login / Registro
-Subir documento
+Pantalla subir documento
 Procesamiento simulado (carga)
-Visualización de resultados IA
+Pantalla Visualización de resultados IA
 Botón para descargar el informe
 
-Entregables esperados
+Entregables esperados:
 
-Todo el código frontend necesario para un MVP funcional.
-Instrucciones claras y secuenciales de instalación.
 Recomendaciones sobre la arquitectura de carpetas y archivos.
-Un archivo aparte con documentación básica del proyecto, explicando: Estructura del código. Cómo ejecutar el frontend localmente. Cómo se integraría con el backend (a alto nivel, sin código).
+Todo el código frontend necesario para un MVP funcional de este proyecto. LO mas minimo que funcione. Con sentido. 
+Instrucciones claras y secuenciales de creacion de estructura, instalación de dependencias (las minimamente funcionales), ejecucion y puesta en marcha, etc.
 
-Consideraciones clave
+Consideraciones:
 
-Aplica el principio KISS (“Keep It Simple, Stupid”) en el diseño y el código. Prioriza usabilidad, claridad visual y fluidez de navegación. No intentes hacer un producto terminado; recuerda que es un MVP para validación temprana. Aun siendo simple, el sistema debe diferenciarse estéticamente y funcionalmente de cualquier app web genérica.
+Manten todo simple, con nombres semanticamente correctos. Código y carpetas en ingles. UI y demas en espanol. Recuerda usabilidad, claridad visual y fluidez de navegación. No intentes hacer un producto terminado; recuerda que es un MVP para validación temprana. Aun siendo simple, el sistema debe diferenciarse estéticamente y funcionalmente de cualquier app web genérica de estos fines. Recuerda sera un sistema LLM.
