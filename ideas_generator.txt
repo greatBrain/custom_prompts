@@ -1,0 +1,64 @@
+PROMPT GENERADOR DE IDEAS
+
+ESPANOL
+========
+
+Actúa como un generador experto de ideas de productos de software con enfoque en MVP. Tu tarea es identificar minusiosamente y con atencion problemas reales que ya tengan soluciones en el mercado, que tengan competencia activa, y que hayan demostrado ser puntos de dolor relevantes.
+
+Quiero una lista concreta de al menos 10 ideas de productos de software, cada una con el siguiente desglose estructurado y específico, sin ambigüedades:
+
+Nombre tentativo del producto: breve, claro, con gancho.
+
+Problema real detectado: describe el punto de dolor que ya existe en el mercado y ha sido validado (con ejemplos reales si es posible).
+
+Público objetivo: quién sufre este problema y por qué.
+
+Soluciones existentes: menciona al menos 2 competidores o productos que ya abordan este problema (y breves detalles de cómo lo hacen).
+
+Diferenciador clave posible: qué podría ofrecer yo diferente o mejor que los competidores (puede ser tecnología, UX, nicho, simplicidad, integración, etc.).
+
+Nivel de madurez del mercado: emergente, en crecimiento, o saturado (y qué significa eso en este caso).
+
+Tipo de MVP sugerido: qué versión mínima se podría construir para validar si este producto resuelve el problema de forma eficaz (puede ser una app, una extensión, un dashboard, un bot, una API, etc.).
+
+Riesgos o desafíos a considerar: desde el punto de vista técnico, ético, legal o de mercado.
+
+Toque creativo adicional: una idea “fuera de la caja” para hacerlo memorable o inesperado (puede ser gamificación, IA, voz, narrativa visual, etc.).
+
+No te limites a un solo nicho o industria. Mezcla campos como salud, educación, software, productividad, entretenimiento, finanzas personales, desarrollo infantil, padres, programadores, freelancers, músicos, cuidadores, y más. Quiero diversidad en los escenarios, expandete a mercados tambien como la pasteleria y panaderia. la agricultura, musicos, IGLESIAS,  etc. Ve mas alla de simples apps crm, facturas, agendas, to do list. Nuestro objetivo es proveer una solucion interesante a problemas que quisas ni ellos saben que tienen. 
+
+Sé claro, conciso, analítico y evita respuestas genéricas. No te quedes en el nivel de “haz una app para X”. Dame ideas con carne.
+
+Empieza con una tabla resumen de las ideas con: Nombre | Problema | Público | Diferenciador.
+
+
+ENGLISH
+========
+
+Act as an expert software product idea generator with an MVP focus. Your task is to meticulously and carefully identify real problems that already have solutions in the market, that have active competition, and that have proven to be relevant pain points.
+
+I want a concrete list of at least 10 software product ideas, each with the following structured and specific breakdown, without ambiguities:
+
+Tentative Product Name: brief, clear, catchy.
+
+Real Problem Detected: describe the existing and validated pain point in the market (with real examples if possible).
+
+Target Audience: who suffers from this problem and why.
+
+Existing Solutions: mention at least 2 competitors or products that already address this problem (and brief details of how they do so).
+
+Possible Key Differentiator: what could I offer that is different or better than the competitors (it could be technology, UX, niche, simplicity, integration, etc.).
+
+Market Maturity Level: emerging, growing, or saturated (and what that means in this case).
+
+Suggested MVP Type: what minimum version could be built to validate if this product effectively solves the problem (it could be an app, an extension, a dashboard, a bot, an API, etc.).
+
+Risks or Challenges to Consider: from a technical, ethical, legal, or market perspective.
+
+Additional Creative Touch: an "out-of-the-box" idea to make it memorable or unexpected (it could be gamification, AI, voice, visual storytelling, etc.).
+
+Do not limit yourself to a single niche or industry. Mix fields such as health, education, software, productivity, entertainment, personal finance, child development, parents, programmers, freelancers, musicians, caregivers, and more. I want diversity in scenarios; expand to markets like pastry and bakery, agriculture, musicians, CHURCHES, etc. Go beyond simple CRM apps, invoices, calendars, to-do lists. Our goal is to provide an interesting solution to problems they might not even know they have.
+
+Be clear, concise, analytical, and avoid generic answers. Don't stay at the "make an app for X" level. Give me ideas with substance.
+
+Start with a summary table of the ideas with: Name | Problem | Audience | Differentiator.
