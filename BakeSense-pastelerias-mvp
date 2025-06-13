@@ -1,0 +1,64 @@
+Estoy desarrollando un MVP frontend llamado BakeSense, dirigido a reposteras y panaderos que hacen productos a pedido, con recetas que cambian en cada encargo (no usan una base fija). El problema que buscamos resolver es:
+La dificultad de calcular ingredientes y costos con precisión en pedidos personalizados.
+La falta de herramientas simples para guardar y reutilizar cálculos sin depender de hojas sueltas o Excel.
+Objetivo del MVP
+Validar si estas microemprendedoras encuentran útil una herramienta que les permita:
+Crear recetas desde cero con sus propios ingredientes.
+Ajustar cantidades automáticamente para un pedido personalizado (ej: “quiero 18 galletas”).
+Calcular el costo total del pedido, aplicar margen de ganancia y obtener un precio sugerido.
+Guardar recetas, ver historial y exportar información fácilmente.
+Editar recetas existentes y duplicarlas como base para nuevos pedidos.
+Visualizar métricas básicas como promedio de costos por unidad o por producto.
+Stack requerido
+Vue 3.4
+TailwindCSS
+HTML5
+Sin backend por ahora (el backend será desarrollado con FastAPI + Supabase más adelante)
+Toda la lógica debe manejarse con estado local o composición API.
+Estructura del proyecto
+Dame una estructura ordenada y escalable.
+Vistas necesarias:
+Pantalla de Inicio / Landing
+Presentación del propósito del producto.
+Botón “Crear una receta”.
+Acceso rápido al historial de recetas.
+Vista: Crear Receta
+Formulario para añadir nombre de receta.
+Inputs dinámicos para ingredientes: nombre, unidad, cantidad, precio unitario.
+Selector de unidades a producir (ej: “quiero hacer 12 galletas”).
+Selector de % de ganancia esperada.
+Cálculo automático de:
+Ingredientes ajustados
+Costo total del pedido
+Precio sugerido según % ganancia
+Visualización en tabla editable
+Botón para “Guardar receta”.
+Vista: Historial / Recetas guardadas
+Lista de recetas con nombre, fecha, costo, precio final.
+Acciones: Ver, Editar, Duplicar, Eliminar.
+Buscador y filtros por tipo o fecha.
+Vista: Detalle de Receta
+Información completa de ingredientes, cálculos, costos, etc.
+Botones:
+Editar receta
+Descargar como PDF (solo botón y diseño)
+Compartir (solo botón, sin funcionalidad real)
+Vista: Métricas (opcional si hay tiempo)
+Resumen de número de recetas creadas.
+Promedio de costos.
+Receta más rentable.
+UX orientado al nicho
+Mobile-first, porque se usará en cocinas o en movimiento.
+Botones grandes, fuentes legibles.
+Nada de diseños modernos sin sentido, todo práctico y sobrio.
+Tonos cálidos, sin saturar.
+Notas
+No integrar APIs externas aún.
+No usar localStorage todavía (opcional si deseas persistencia temporal).
+Usa componentes reutilizables.
+Prioriza legibilidad y claridad.
+Salida esperada
+Código completo del frontend funcional, listo para ser conectado a un backend en el futuro.
+Componentes bien divididos.
+Código comentado y explicaciones claras de cada vista.
+Flujo completo desde crear una receta hasta calcular, guardar y consultar.
