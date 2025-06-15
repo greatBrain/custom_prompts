@@ -9,16 +9,20 @@ Calcular el costo total del pedido, aplicar margen de ganancia y obtener un prec
 Guardar recetas, ver historial y exportar información fácilmente.
 Editar recetas existentes y duplicarlas como base para nuevos pedidos.
 Visualizar métricas básicas como promedio de costos por unidad o por producto.
+Estilo del producto
+Debe verse y sentirse moderno, con una paleta de colores suave pero atractiva a la vista. 
+Debe sentirse fluido, con esquinas bordeadas, titulos grandes bien distribuidos. 
+Debe ser asimetrico, no lo centres todo.
 Stack requerido
-Vue 3.4
-TailwindCSS
+Vue 3.5
+TailwindCSS 3
 HTML5
 Sin backend por ahora (el backend será desarrollado con FastAPI + Supabase más adelante)
 Toda la lógica debe manejarse con estado local o composición API.
 Estructura del proyecto
 Dame una estructura ordenada y escalable.
 Vistas necesarias:
-Pantalla de Inicio / Landing
+Pantalla de Inicio
 Presentación del propósito del producto.
 Botón “Crear una receta”.
 Acceso rápido al historial de recetas.
